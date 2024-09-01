@@ -1,4 +1,4 @@
-const Navlinks = [
+const navlinks = [
 	{
 		name: 'Features',
 		href: '/features',
@@ -28,4 +28,23 @@ const authLinks = [
 	},
 ];
 
-export { Navlinks, authLinks };
+const featureLinks = [
+	{
+		name: 'Pokedex',
+		href: '/pokedex',
+	},
+	{
+		name: 'Team Builder',
+		href: '/builder',
+	},
+	{
+		name: 'Calculator',
+		href: '/calculator',
+	},
+	{
+		name: 'Simulator',
+		href: '/simulator',
+	},
+];
+
+export { navlinks, authLinks, featureLinks };

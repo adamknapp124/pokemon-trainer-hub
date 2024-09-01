@@ -14,7 +14,22 @@ module.exports = {
 			},
 		},
 		fontFamily: {
-			navbar: ['Overpass'],
+			body: ['Overpass'],
+			stats: ['Orbitron'],
+		},
+		letterSpacing: {
+			evenWider: '.6em',
+		},
+		colors: {
+			'poke-yellow': '#FAE373',
+			'poke-blue': '#0F5FFF',
+			'poke-purple': '#B987A0',
+			'poke-red': '#D66D7B',
+			white: '#FFFFFF',
+			back: '#000000',
+		},
+		blur: {
+			biggest: '152px',
 		},
 	},
 	plugins: [],

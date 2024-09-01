@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 
-import { Navlinks, authLinks } from '@/app/constants/navLinks';
+import { navlinks, authLinks } from '@/app/constants/navLinks';
 import NavLink from './NavLink';
 
 import logo from '../../../../public/images/poke-logo.png';
@@ -13,7 +13,7 @@ import Divider from '../Divider';
 export default function Navbar() {
 	return (
 		<nav className='bg-black h-[100px] relative'>
-			<section className='justify-center h-full items-center flex justify-between max-w-[1280px] m-auto font-navbar text-xl font-bold tracking-wide'>
+			<section className='justify-center h-full items-center flex justify-between max-w-[1280px] m-auto font-body text-xl font-bold tracking-wide'>
 				<Link href='/'>
 					<Image
 						src={logo}
@@ -24,7 +24,7 @@ export default function Navbar() {
 					/>
 				</Link>
 				<div className='flex gap-10 text-white'>
-					{Navlinks.map((link) => (
+					{navlinks.map((link) => (
 						<NavLink
 							key={link.name}
 							route={link.href}
