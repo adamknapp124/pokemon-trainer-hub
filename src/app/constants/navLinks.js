@@ -1,30 +1,30 @@
 const Navlinks = [
 	{
 		name: 'Features',
-		link: '/features',
+		href: '/features',
 	},
 	{
 		name: 'Updates',
-		link: '/updates',
+		href: '/updates',
 	},
 	{
 		name: 'Requests',
-		link: '/requests',
+		href: '/requests',
 	},
 	{
 		name: 'Guide',
-		link: '/guide',
+		href: '/guide',
 	},
 ];
 
 const authLinks = [
 	{
 		name: 'Login',
-		link: '/login',
+		href: '/login',
 	},
 	{
 		name: 'Sign up',
-		link: '/signup',
+		href: '/signup',
 	},
 ];
 

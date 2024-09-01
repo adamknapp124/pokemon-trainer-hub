@@ -3,9 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 
 import { Navlinks, authLinks } from '@/app/constants/navLinks';
+import NavLink from './NavLink';
 
-import logo from '../../../public/images/poke-logo.png';
-import Divider from '../components/Divider';
+import logo from '../../../../public/images/poke-logo.png';
+import Divider from '../Divider';
 
 export default function Navbar() {
 	return (
@@ -20,12 +21,20 @@ export default function Navbar() {
 				/>
 				<div className='flex gap-10 text-white'>
 					{Navlinks.map((link) => (
-						<button key={link.name}>{link.name}</button>
+						<NavLink
+							key={link.name}
+							route={link.href}
+							name={link.name}
+						/>
 					))}
 				</div>
 				<div className='flex gap-10 text-white'>
 					{authLinks.map((link) => (
-						<button key={link.name}>{link.name}</button>
+						<NavLink
+							key={link.name}
+							route={link.href}
+							name={link.name}
+						/>
 					))}
 				</div>
 			</section>
@@ -33,6 +42,3 @@ export default function Navbar() {
 		</nav>
 	);
 }
-
-// Create navlink component to break down code even more, then use the map function to replace the buttons with nav
-// Links for navigation
