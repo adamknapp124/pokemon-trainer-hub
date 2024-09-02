@@ -29,7 +29,7 @@ export default function Hero() {
 						<div className='flex gap-3 items-center'>
 							<Link
 								href='/signup'
-								className='py-3 px-8 bg-poke-yellow hover:bg-poke-blue hover:text-white transition duration-300 ease rounded-md font-extrabold tracking-wide'>
+								className='text-black py-3 px-8 bg-poke-yellow hover:bg-poke-blue hover:text-white transition duration-300 ease rounded-md font-extrabold tracking-wide'>
 								Try it now
 							</Link>
 							<p className='text-white font-semibold'>
