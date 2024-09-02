@@ -7,7 +7,7 @@ import Blur from '../Blur';
 
 export default function BattleShowcase() {
 	return (
-		<main className='bg-[#000000]'>
+		<main className='bg-black'>
 			<section className='text-white flex-col items-center py-40 gap-10'>
 				<div>
 					<Image
