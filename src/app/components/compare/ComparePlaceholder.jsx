@@ -16,7 +16,7 @@ export default function ComparePlaceholder({ pokedex }) {
 				{pokedex.map((pokemon, index) => (
 					<div
 						key={index}
-						className='hover:scale-110 duration-500'
+						className=''
 						draggable
 						onDragStart={() => handleDragStart(pokemon)}>
 						<PokemonCard

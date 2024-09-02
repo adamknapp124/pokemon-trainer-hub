@@ -13,7 +13,7 @@ export default async function Pokedex() {
 				{pokedex.map((pokemon, index) => (
 					<div
 						key={index}
-						className='hover:scale-110 duration-500'>
+						className=''>
 						<PokemonCard
 							name={pokemon.name}
 							image={pokemon.url}
