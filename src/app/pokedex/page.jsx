@@ -6,7 +6,6 @@ import PokemonCard from '../components/pokedex/PokemonCard';
 
 export default async function Pokedex() {
 	const pokedex = await loadPokedex();
-	// console.log(pokedex);
 
 	return (
 		<section className='my-10 flex-col'>

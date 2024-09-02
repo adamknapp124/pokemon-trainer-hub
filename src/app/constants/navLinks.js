@@ -38,8 +38,8 @@ const featureLinks = [
 		href: '/builder',
 	},
 	{
-		name: 'Calculator',
-		href: '/calculator',
+		name: 'Compare',
+		href: '/compare',
 	},
 	{
 		name: 'Simulator',

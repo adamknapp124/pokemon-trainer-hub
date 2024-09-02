@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PokemonCard({ name, image }) {
-	console.log(name);
 	return (
 		<Link
 			href={`/pokedex/${name}`}

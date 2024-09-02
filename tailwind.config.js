@@ -17,8 +17,7 @@ module.exports = {
 				'poke-blue': '#0F5FFF',
 				'poke-purple': '#B987A0',
 				'poke-red': '#D66D7B',
-				white: '#FFFFFF',
-				black: '#000000',
+				'poke-black': '#010101',
 			},
 			fontFamily: {
 				body: ['Overpass'],

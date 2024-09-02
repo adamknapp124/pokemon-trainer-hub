@@ -13,7 +13,6 @@ import Divider from '../Divider';
 
 export default function Navbar() {
 	const pathname = usePathname();
-	console.log();
 	return (
 		<nav className='bg-black h-[100px] relative'>
 			<section className='justify-center h-full items-center flex justify-between max-w-[1280px] m-auto font-body text-xl font-bold tracking-wide'>
