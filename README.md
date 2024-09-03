@@ -1,1 +1,2 @@
-## Pokemon Trainer Hub
+# Pokemon Trainer Hub  
+## To use the app
