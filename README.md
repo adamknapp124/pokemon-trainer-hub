@@ -11,7 +11,14 @@ Visualizes Pokémon stats with dynamically generated stat bars, making it easy t
 
 https://github.com/user-attachments/assets/07b80e09-f8c5-4eec-9f70-2e55cee6853d
 
-## If I expand on this...  
-- this
-- that
-- the other
+https://github.com/user-attachments/assets/dfd4b5a9-8421-48ec-905c-13d7ca928d9c
+
+## If I expand on this I would like to add  
+- A team optimizer, giving you a recommendation for the best team of Pokémon in your Pokédex for a battle you might find at a Pokémon Gym in Pokémon Go
+- A Fully functioning Pokédex capable of handling the quantity of each Pokémon and the specific stats from each.
+- A battle simulator based on mathematical probabilities for each Pokémon and move they have learned.
+
+ ## Built with  
+- Next.js
+- Tailwind CSS
+- Pokédex API
