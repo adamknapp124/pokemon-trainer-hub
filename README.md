@@ -9,5 +9,5 @@ This app fetches data directly from the Pokédex API.
 ### Dynamic Stat Bars
 Visualizes Pokémon stats with dynamically generated stat bars, making it easy to visually compare, even with the smallest differences.
 
-
+https://github.com/user-attachments/assets/07b80e09-f8c5-4eec-9f70-2e55cee6853d
 
