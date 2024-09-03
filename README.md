@@ -11,3 +11,7 @@ Visualizes Pokémon stats with dynamically generated stat bars, making it easy t
 
 https://github.com/user-attachments/assets/07b80e09-f8c5-4eec-9f70-2e55cee6853d
 
+## If I expand on this...  
+- this
+- that
+- the other
