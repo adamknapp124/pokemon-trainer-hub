@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokémon Trainer Hub  
+Pokémon Trainer Hub is a web application designed to help users compare the stats of different Pokémon. Users can drag and drop Pokémon into designated drop zones, and the application will display a detailed comparison of their base stats. This tool could also work well for a digital Pokédex to keepo track of your Pokémon in Pokémon Go, as well as to analyze and strategize based on Pokémon strengths and weaknesses for battling gyms.
 
-## Getting Started
+## Features  
+### Drag and Drop Interface
+Users can drag a Pokémon from a list and drop it into a disignated comparison box to begin the stat comparison.
+### Real-time Pokémon Data
+This app fetches data directly from the Pokédex API.
+### Dynamic Stat Bars
+Visualizes Pokémon stats with dynamically generated stat bars, making it easy to visually compare, even with the smallest differences.
 
-First, run the development server:
+https://github.com/user-attachments/assets/07b80e09-f8c5-4eec-9f70-2e55cee6853d
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://github.com/user-attachments/assets/dfd4b5a9-8421-48ec-905c-13d7ca928d9c
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## If I expand on this I would like to add  
+- A team optimizer, giving you a recommendation for the best team of Pokémon in your Pokédex for a battle you might find at a Pokémon Gym in Pokémon Go
+- A Fully functioning Pokédex capable of handling the quantity of each Pokémon and the specific stats from each.
+- A battle simulator based on mathematical probabilities for each Pokémon and move they have learned.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ## Built with  
+- Next.js
+- Tailwind CSS
+- Pokédex API
