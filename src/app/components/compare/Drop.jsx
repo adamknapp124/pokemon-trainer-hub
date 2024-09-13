@@ -37,15 +37,21 @@ export default function Drop({ dragged, onDrop }) {
 			onDragOver={handleDragOver}>
 			{droppedPokemon ? (
 				<div
-					className='min-h-[400px] min-w-[400px] flex justify-center items-center rounded-lg'
+					className='h-[400px] w-[400px] flex flex-col items-center rounded-lg border-2 border-poke-blue p-3'
 					onDrop={handleDrop}>
 					{droppedPokemon && (
-						<Image
-							alt={droppedPokemon.name}
-							src={droppedPokemon.url}
-							width={200}
-							height={200}
-						/>
+						<>
+							<Image
+								alt={droppedPokemon.name}
+								src={droppedPokemon.url}
+								width={200}
+								height={200}
+								className='h-3/4 flex w-full items-center justify-center flex-grow'
+							/>
+							<div className='text-white h-1/4 w-full flex items-center justify-center font-stats font-bold tracking-widest text-lg capitalize'>
+								{droppedPokemon.name}
+							</div>
+						</>
 					)}
 				</div>
 			) : (

@@ -16,10 +16,12 @@ export default function ComparePokemon({ pokemon1, pokemon2 }) {
 						className='flex w-full gap-1 h-14'>
 						{/* Pokémon 1 Stats */}
 						<div
-							className='flex font-stats text-black text-sm font-bold tracking-wide
-                            hover:text-white justify-between items-center bg-gradient-to-t
-                            from-poke-yellow hover:from-poke-blue to-white border-2
-                            border-poke-yellow rounded-tr rounded-br transition-all ease-in-out duration-500 h-full'
+							className='flex justify-between items-center font-stats font-bold 
+                                           text-white text-sm hover:text-black
+                                           bg-gradient-to-t from-poke-blue hover:from-poke-yellow
+                                           to-neutral-950 hover:to-white border-2 border-poke-blue
+                                           rounded-tl rounded-bl transition-all ease-in-out
+                                           duration-500 h-full'
 							style={{
 								width: pokemon2
 									? `${width1}%`
@@ -32,12 +34,10 @@ export default function ComparePokemon({ pokemon1, pokemon2 }) {
 						{/* Pokémon 2 Stats */}
 						{pokemon2 && (
 							<div
-								className='flex justify-between items-center font-stats font-bold 
-                                           text-white text-sm hover:text-black
-                                           bg-gradient-to-t from-poke-blue hover:from-poke-yellow
-                                           to-neutral-950 hover:to-white border-2 border-poke-blue
-                                           rounded-tl rounded-bl transition-all ease-in-out
-                                           duration-500 h-full'
+								className='flex font-stats text-black text-sm font-bold tracking-wide
+                            hover:text-white justify-between items-center bg-gradient-to-t
+                            from-poke-yellow hover:from-poke-blue to-white border-2
+                            border-poke-yellow rounded-tr rounded-br transition-all ease-in-out duration-500 h-full'
 								style={{ width: `${width2}%` }}>
 								<span className='px-2'>{stat2.base_stat}</span>
 								<span className='capitalize px-2'>{stat2.stat.name}</span>

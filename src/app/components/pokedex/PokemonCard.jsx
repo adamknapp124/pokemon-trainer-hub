@@ -10,7 +10,8 @@ export default function PokemonCard({ name, image }) {
 			<div
 				className='border border-poke-blue bg-black rounded-lg flex flex-col items-center
              justify-between py-5 gap-2 h-36 font-body capitalize hover:border hover:border-poke-yellow hover:bg-neutral-950
-              font-bold transition duration-200'>
+              font-bold transition duration-200'
+				draggable>
 				{name}
 
 				<Image

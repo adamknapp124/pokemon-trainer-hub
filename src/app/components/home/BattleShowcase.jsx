@@ -33,7 +33,6 @@ export default function BattleShowcase() {
 					</p>
 				</div>
 			</section>
-			<Divider />
 			<Blur />
 		</main>
 	);
